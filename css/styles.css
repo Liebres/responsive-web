@@ -1,0 +1,1326 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  justify-content: center;
+}
+
+/*Inicio menu*/
+header {
+  width: 100%;
+  height: 78px;
+  top: 50px;
+  text-align: center;
+  z-index: 999;
+}
+
+.banner {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  width: 160px;
+  height: 80px;
+  margin-left: 5%;
+}
+
+.navegador {
+  width: 100%;
+  height: 80px;
+}
+
+.navegador .icon {
+  display: none;
+  font-size: 4rem;
+  color: black;
+  padding-right: 3rem;
+}
+
+nav {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  font-weight: 400px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  padding: 15px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #609750ee;
+  padding-bottom: 18px;
+  border-bottom: solid 6px #ffbd1a;
+}
+
+.cuadroNegro {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(26, 25, 25);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.redesHeader {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.iconosHeader {
+  width: 30px;
+  height: 30px;
+}
+
+.infoHeader {
+  width: 45%;
+  height: auto;
+  display: flex;
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.telefono {
+  width: 20px;
+  height: auto;
+  padding-right: 5px;
+}
+
+.info {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonCallMe {
+  border: none;
+  width: 140px;
+  height: 34px;
+  background: #a2d84c;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.507);
+}
+/*Final menu*/
+
+/*Inicio seccion 1*/
+
+.section-1 {
+  width: 100%;
+  height: 480px;
+  background: url(../imagenes/fondo-home.png);
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  width: 50%;
+  height: 400px;
+}
+
+.tituloInicio {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.parrafoInicio {
+  width: 680px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.botonRead {
+  border: none;
+  width: 140px;
+  height: 34px;
+  background: #ffbd1a;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.507);
+  display: block;
+  margin: auto;
+  margin-top: 26px;
+}
+/*Final seccion 1*/
+
+/*Inicio seccion 2*/
+
+.section-2 {
+  width: 100%;
+  height: auto;
+}
+
+.tituloVentajas {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: #668e19;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.txtNegro {
+  color: black;
+}
+
+.textoInicio {
+  width: 570px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #bcbec0;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+.imgSeccion2 {
+  width: 150px;
+}
+
+.txtSec2 {
+  width: 260px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #bcbec0;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.circuloImg {
+  width: 220px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  margin: 20px 0px;
+}
+
+.contenedorBig {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.txtCirculoImg {
+  width: 220px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 8px 0px;
+}
+/*Final seccion 2*/
+
+/*Inicio seccion 3*/
+
+.section-3 {
+  width: 100%;
+  height: auto;
+  background: url(/imagenes/about-us/fondo-about-us.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tituloAboutUs {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: #668e19;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.txtSec3 {
+  width: 460px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 1.4rem;
+  margin-top: -73px;
+}
+
+.imgAboutUs {
+  width: 440px;
+  height: auto;
+}
+
+.contenedorBig2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.botonRead2 {
+  border: none;
+  width: 140px;
+  height: 34px;
+  background: #ffbd1a;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.507);
+}
+/*Final seccion 3*/
+
+/*Inicio seccion 4*/
+
+.tituloOurServices {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: #668e19;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.imgSeccion4 {
+  width: 80px;
+  padding-top: 15px;
+}
+
+.txtSec4 {
+  width: 260px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #a7a9ac;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.circuloImg4 {
+  width: 270px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  margin: 20px 0px;
+  background-color: #f1f2f2;
+  border-radius: 10px;
+}
+
+.txtReadMore {
+  width: 260px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #8dc63f;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: -10px;
+  text-decoration: underline;
+}
+/*Final seccion 4*/
+
+/*Inicio seccion 5*/
+
+.section-5 {
+  width: 100%;
+  height: 80rem;
+  background: #212121;
+  margin-top: 100px;
+}
+
+.tituloOurPortfolio {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: #668e19;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.txtNegro2 {
+  color: #f1f2f2;
+}
+
+.txtInicioPortfolio {
+  width: 570px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #bcbec0;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: auto;
+  padding: 0.1rem;
+}
+
+.bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bar ul {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  font-weight: 400px;
+  list-style: none;
+  padding: 0px;
+}
+
+.bar ul li {
+  float: left;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #f1f2f2;
+}
+
+.containerGrid {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+/*Final seccion 5*/
+
+/*Inicio seccion 6*/
+
+.section-6 {
+  width: 100%;
+}
+
+.tituloProcess {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: #668e19;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.textoInicio {
+  width: 570px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #bcbec0;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+.imgSeccion3 {
+  width: 150px;
+}
+
+.txtSec6 {
+  width: 260px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #bcbec0;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.circuloImg3 {
+  width: 180px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  margin: 20px 0px;
+}
+
+.contenedorBig3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.txtCirculoImg3 {
+  width: 220px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 8px 0px;
+}
+/*Final seccion 6*/
+
+/*Inicio seccion 7*/
+
+.section-7 {
+  width: 100%;
+  height: 530px;
+  background: #f1f2f2;
+}
+
+.container7 {
+  width: 100%;
+  height: 510px;
+}
+
+.tituloPeopleAboutUs7 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: #668e19;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.imgProfile {
+  width: 160px;
+  padding-right: 30px;
+}
+
+.txtNombre {
+  width: 220px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.txtMiniSeccion {
+  width: 300px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 1rem;
+}
+
+.contenedorGrid7 {
+  width: 75%;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.miniSeccion1 {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+/*Final seccion 7*/
+
+/*Inicio seccion 8*/
+
+.section-8 {
+  width: 100%;
+  height: auto;
+}
+
+.tituloOurSkills {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: #668e19;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.txtSkills {
+  width: 180px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.circuloImgSkills {
+  width: 220px;
+  height: auto;
+  padding: 0px 20px;
+  margin: 20px 0px;
+  margin: auto;
+}
+
+.contenedorBig8 {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+/*Final seccion 8*/
+
+/*Inicio seccion 9*/
+
+.section-9 {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  background: #8dc63f;
+}
+.tituloNewProject {
+  font-size: 5rem;
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+.containerInputs {
+  width: 80%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.input {
+  max-width: 220px;
+  width: 220px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+  outline: none;
+  color: rgba(105, 105, 105, 0.555);
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.botonSend {
+  border: none;
+  max-width: 190px;
+  width: 200px;
+  height: 50px;
+  background: #ffbd1a;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.507);
+  display: block;
+}
+.txtSec9 {
+  width: 780px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+/*Final seccion 9*/
+
+/*inicio seccion 10*/
+
+.section-10 {
+  width: 100%;
+  height: 500px;
+  background: #ffffff;
+}
+.tituloContacts {
+  font-size: 2.5rem;
+  color: #668e19;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+.textoContacts {
+  width: 570px;
+  height: auto;
+  font-size: 1.4rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #bcbec0;
+  text-align: center;
+  margin: auto;
+}
+.txtContacts2 {
+  width: 100%;
+  height: auto;
+  font-size: 1.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+}
+.location {
+  margin-right: 5px;
+}
+.infoSec10 {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1%;
+}
+.txtInfoSec10 {
+  width: 205px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000000;
+  line-height: 30px;
+  margin: auto;
+}
+.fondoMapa {
+  margin-top: 30px;
+}
+/*Final seccion 10*/
+
+/*Inicio Footer*/
+
+.footer {
+  width: 100%;
+  height: 350px;
+  background: #668e19;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.containerFooter ul {
+  list-style: none;
+}
+.containerFooter {
+  width: 90%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+.titulosFooter {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 50px;
+}
+
+.footerLogo {
+  width: 300px;
+}
+
+.txtFooter {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ffffff;
+  line-height: 25px;
+  text-decoration: underline;
+}
+.txtFooter2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ffffff;
+  line-height: 30px;
+}
+.parrafoFooter {
+  font-size: 1.2rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.iconoFooter {
+  width: 25px;
+  height: auto;
+  padding-right: 5px;
+}
+.logosFooter {
+  margin-right: 5px;
+}
+.containerRedes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+
+.columna1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.columna2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columna3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columna4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Final Footer*/
+
+/*Media Queries*/
+/*Tablet*/
+
+@media screen and (max-width: 1100px) {
+  .navegador .icon {
+    display: initial;
+    color: #356429;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+  #ul a {
+    color: white;
+  }
+
+  .navegador.responsive a.icon {
+    width: 0;
+  }
+
+  nav .uele {
+    position: absolute;
+    top: -650px;
+    left: 100;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #438d30c2;
+    transition: 0.3s;
+  }
+
+  nav .uele.active {
+    top: 65px;
+  }
+
+  .navegador .icon.active {
+    color: rgb(238, 201, 36);
+  }
+
+  .uele a {
+    padding: 1.5rem;
+    display: block;
+  }
+
+  /*Seccion 1*/
+
+  .cuadroNegro {
+    display: none;
+  }
+  /*Seccion 2*/
+
+  .section-2 {
+    width: 100%;
+    height: auto;
+  }
+
+  /*Seccion 3*/
+
+  .section-3 {
+    width: 100%;
+  }
+
+  .tituloAboutUs {
+    padding-top: 3rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .txtSec3 {
+    margin-left: 3rem;
+    font-size: 1.4rem;
+  }
+
+  .imgAboutUs {
+    width: 340px;
+    height: auto;
+  }
+
+  /*Seccion 5*/
+
+  .section-5 {
+    width: 100%;
+    height: auto;
+    background: #212121;
+    margin-top: 100px;
+  }
+
+  .container5 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .containerGrid {
+    height: 1%;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 10rem;
+  }
+
+  .pic10 {
+    display: none;
+  }
+
+  .bar ul {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 400px;
+    list-style: none;
+    padding: 0px;
+  }
+
+  /*Seccion 7*/
+
+  .section-7 {
+    width: 100%;
+    height: 940px;
+    background: #f1f2f2;
+    margin-top: 50px;
+  }
+
+  .contenedorGrid7 {
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .txtMiniSeccion {
+    font-size: 1.4rem;
+  }
+
+  .miniSeccion1 {
+    width: 550px;
+  }
+
+  /*Seccion 8*/
+
+  .contenedorBig8 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /*Seccion 9*/
+
+  .botonSend {
+    width: 100px;
+  }
+
+  .input {
+    width: 150px;
+  }
+
+  .txtSec9 {
+    width: 80%;
+  }
+
+  /*Seccion 10*/
+
+  .infoSec10 {
+    width: 60%;
+    margin-top: 20px;
+  }
+
+  .txtInfoSec10 {
+    width: 160px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #000000;
+    line-height: 30px;
+    margin: auto;
+  }
+
+  .txtContacts2 {
+    width: 90%;
+  }
+
+  .section-10 {
+    width: 100%;
+    height: 415px;
+    background: #ffffff;
+  }
+
+  /*Footer*/
+
+  .containerFooter {
+    width: 90%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    width: 100%;
+    height: 700px;
+  }
+
+  .columna3 {
+    display: flex;
+    justify-content: left;
+  }
+}
+
+/*Telefono*/
+
+@media screen and (max-width: 660px) {
+  /*Seccion 1*/
+
+  .container1 {
+    width: 50%;
+    height: 400px;
+  }
+
+  .section-1 {
+    width: 100%;
+    height: 480px;
+  }
+
+  .parrafoInicio {
+    width: 75%;
+    font-size: 1.4rem;
+  }
+
+  .tituloInicio {
+    font-size: 3rem;
+    padding-top: 130px;
+    margin: auto;
+  }
+
+  /*Seccion 2*/
+
+  .section-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+
+  .textoInicio {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  .container2 {
+    height: auto;
+  }
+
+  /*Seccion 3*/
+
+  .section-3 {
+    width: 100%;
+    height: 450px;
+  }
+
+  .container3 {
+    height: 100%;
+  }
+
+  .txtSec3 {
+    width: 80%;
+    font-size: 1.2rem;
+    padding-top: 5rem;
+  }
+
+  .imgAboutUs {
+    display: none;
+  }
+
+  /*Seccion 4*/
+  .section-4 {
+    width: 100%;
+    margin-top: 10rem;
+  }
+
+  /*Seccion 5*/
+
+  .section-5 {
+    width: 100%;
+    height: auto;
+  }
+
+  .bar ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .txtInicioPortfolio {
+    width: 85%;
+    font-size: 1.4rem;
+    padding: 0.1rem;
+  }
+
+  .containerGrid {
+    max-height: 100%;
+    padding-bottom: 6rem;
+  }
+
+  /*Seccion 6*/
+
+  .section-6 {
+    width: 90%;
+    margin: auto;
+  }
+
+  /*Seccion 7*/
+
+  .section-7 {
+    width: 100%;
+    height: 850px;
+    margin-top: 50px;
+  }
+
+  .contenedorGrid7 {
+    width: 80%;
+    height: 220px;
+    margin: auto;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .imgProfile {
+    width: 100px;
+  }
+
+  .txtNombre {
+    font-size: 1.2rem;
+  }
+
+  .txtMiniSeccion {
+    width: 220px;
+    font-size: 1rem;
+  }
+
+  .miniSeccion1 {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  /*Seccion 8*/
+
+  .section-8 {
+    width: 100%;
+    height: 800px;
+  }
+
+  .circuloImgSkills {
+    width: 200px;
+  }
+
+  /*Seccion 9*/
+
+  .section-9 {
+    width: 100%;
+    height: 670px;
+    margin-top: 50px;
+  }
+
+  .tituloNewProject {
+    width: 80%;
+    font-size: 5rem;
+    padding-top: 30px;
+  }
+
+  .containerInputs {
+    width: 80%;
+    height: 300px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: space-evenly;
+    margin: auto;
+  }
+
+  .input {
+    max-width: 300px;
+    width: 300px;
+    padding: 12px;
+  }
+
+  .txtSec9 {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .botonSend {
+    width: 400px;
+  }
+
+  /*Seccion 10*/
+
+  .infoSec10 {
+    width: 85%;
+    margin-top: 20px;
+  }
+
+  .txtInfoSec10 {
+    width: 400px;
+    font-size: 1rem;
+    line-height: 30px;
+    margin: auto;
+  }
+
+  .section-10 {
+    width: 100%;
+    height: 350px;
+    background: #ffffff;
+  }
+
+  .txtContacts2 {
+    width: 80%;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+  /*Footer*/
+
+  .containerFooter {
+    width: 90%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    width: 100%;
+    height: 1100px;
+  }
+
+  .columna1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .columna2 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 3rem;
+  }
+
+  .columna3 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 3rem;
+  }
+
+  .columna4 {
+    display: flex;
+    justify-content: left;
+  }
+
+  .txtFooter2 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 30px;
+  }
+  .parrafoFooter {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+}
